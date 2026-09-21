@@ -1,0 +1,47 @@
+/* order_style.css  -  only for order.html */
+
+.success-box {
+  text-align: center;
+  padding: 45px 20px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+
+.tick {
+  font-size: 40px;
+  color: #007d48;
+}
+
+.success-box h1 {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin: 12px 0;
+}
+
+.success-box p {
+  color: #757575;
+  margin: 4px 0;
+}
+
+.success-box b { color: #111111; }
+
+.order-detail {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.order-detail table { margin-bottom: 35px; }
+
+.order-detail th { width: 210px; }
+
+.print-row {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.print-row .btn { margin: 0 5px; }
+
+@media print {
+  .top-bar, .header, .footer, .btn { display: none; }
+}

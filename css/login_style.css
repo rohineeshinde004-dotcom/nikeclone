@@ -1,0 +1,91 @@
+/* login_style.css  -  only for login.html */
+
+.login-box {
+  max-width: 420px;
+  margin: 10px auto 40px auto;
+  text-align: center;
+}
+
+.join-title {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 22px;
+}
+
+.tab-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #e5e5e5;
+  background-color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  color: #757575;
+}
+
+.tab-btn.active {
+  border-bottom: 2px solid #111111;
+  color: #111111;
+  font-weight: 500;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: #111111;
+}
+
+.msg {
+  font-size: 14px;
+  min-height: 18px;
+  text-align: left;
+}
+
+.msg.error { color: #b32b2b; }
+.msg.success { color: #007d48; }
+
+.terms {
+  font-size: 12px;
+  color: #757575;
+  margin: 12px 0;
+  line-height: 18px;
+}
+
+.excel-box {
+  margin-top: 45px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 25px;
+  text-align: left;
+}
+
+.excel-box h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.small-note {
+  font-size: 13px;
+  color: #757575;
+  line-height: 19px;
+  margin-bottom: 12px;
+}
+
+.excel-box .btn {
+  margin-right: 8px;
+}

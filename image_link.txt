@@ -1,0 +1,41 @@
+==========================================================
+ IMAGE LINK FILE  -  Nike Store Clone (BSc IT Mini Project)
+==========================================================
+
+All photos of this website are kept in the "images" folder.
+The full step by step method is written in :
+
+        images/HOW_TO_ADD_PHOTOS.txt
+
+----------------------------------------------------------
+ LIST OF IMAGE FILES USED IN THIS PROJECT
+----------------------------------------------------------
+ FILE                      WHERE IT IS USED
+----------------------------------------------------------
+ images/banner.jpg         Home page big banner  (css/home_style.css)
+ images/product1.jpg       Nike Air Force 1 '07
+ images/product2.jpg       Nike Dunk Low Retro
+ images/product3.jpg       Nike Air Max 90
+ images/product4.jpg       Nike Pegasus 41
+ images/product5.jpg       Nike Revolution 7
+ images/product6.jpg       Nike Court Vision Low
+ images/product7.jpg       Nike V2K Run
+ images/product8.jpg       Nike Blazer Mid '77 Vintage
+ images/product9.jpg       Nike Air Force 1 LE (Kids)
+ images/product10.jpg      Nike Dri-FIT Sportswear Tee
+ images/product11.jpg      Nike Sportswear Club Fleece
+ images/product12.jpg      Nike Brasilia 9.5 Duffel Bag
+
+ Product photos are set in  js/main.js  (the "img" part)
+ Banner photo is set in     css/home_style.css  (the ".hero" part)
+
+----------------------------------------------------------
+ FREE IMAGE WEBSITES (no copyright problem for a project)
+----------------------------------------------------------
+ https://www.pexels.com
+ https://unsplash.com
+ https://pixabay.com
+
+ Search words to use : sneakers, running shoes, white sneakers,
+ kids shoes, hoodie, sports t shirt, gym duffel bag,
+ running track athlete

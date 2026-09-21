@@ -1,0 +1,164 @@
+/* product_style.css  -  only for product.html */
+
+.breadcrumb {
+  font-size: 13px;
+  color: #757575;
+  margin-bottom: 14px;
+}
+
+.detail-box {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.detail-img {
+  flex: 1.4;
+  min-width: 300px;
+}
+
+.detail-img img {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: block;
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 300px;
+  max-width: 420px;
+}
+
+.detail-info h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cat-name {
+  color: #757575;
+  font-size: 16px;
+  margin: 3px 0 18px 0;
+}
+
+.detail-price {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.old-price {
+  color: #757575;
+  text-decoration: line-through;
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+.off {
+  color: #007d48;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.tax-note {
+  color: #757575;
+  font-size: 13px;
+  margin: 4px 0 22px 0;
+}
+
+.size-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.size-head span {
+  color: #757575;
+  font-weight: normal;
+}
+
+.size-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.size-btn {
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+  padding: 14px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.size-btn:hover {
+  border-color: #111111;
+}
+
+.size-btn.selected {
+  border-color: #111111;
+  background-color: #f5f5f5;
+}
+
+.qty-row {
+  margin-top: 22px;
+}
+
+.qty-row h4 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.qty-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 30px;
+  width: 130px;
+  overflow: hidden;
+}
+
+.qty-box button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  background-color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.qty-box button:hover {
+  background-color: #f5f5f5;
+}
+
+.qty-box span {
+  flex: 1;
+  text-align: center;
+  font-size: 15px;
+}
+
+.add-btn {
+  margin-top: 22px;
+}
+
+.error-msg {
+  color: #b32b2b;
+  font-size: 14px;
+  margin-top: 10px;
+  min-height: 18px;
+}
+
+.desc {
+  margin-top: 26px;
+  line-height: 24px;
+  color: #111111;
+}
+
+.point-list {
+  margin: 14px 0 0 18px;
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+}

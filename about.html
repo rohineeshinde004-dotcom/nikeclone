@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About This Project. Nike IN</title>
+<link rel="stylesheet" href="css/main_style.css">
+<link rel="stylesheet" href="css/about_style.css">
+</head>
+<body>
+
+<!-- ============ TOP BLACK BAR ============ -->
+<div class="top-bar">
+  <div class="top-links">
+    <a href="about.html">Find a Store</a><span>|</span>
+    <a href="about.html">Help</a><span>|</span>
+    <a href="login.html">Join Us</a><span>|</span>
+    <a href="login.html" id="user-link">Sign In</a>
+  </div>
+</div>
+
+<!-- ============ MAIN HEADER ============ -->
+<div class="header">
+  <a href="index.html" class="logo">NIKE</a>
+
+  <div class="nav">
+    <a href="products.html">New &amp; Featured</a>
+    <a href="products.html?cat=Men">Men</a>
+    <a href="products.html?cat=Women">Women</a>
+    <a href="products.html?cat=Kids">Kids</a>
+    <a href="products.html?cat=Accessories">Accessories</a>
+  </div>
+
+  <div class="head-right">
+    <form class="search-form" onsubmit="return doSearch(event)">
+      <input type="text" id="search-box" placeholder="Search">
+    </form>
+    <a href="cart.html" class="bag-link">Bag (<span id="cart-count">0</span>)</a>
+  </div>
+</div>
+
+<div class="container">
+  <h2 class="page-title">About This Project</h2>
+  <div class="about-box">
+    <p>
+      This website is a clone of the Nike India online store, made as a mini project for the
+      BSc IT course. It is built only with <b>HTML, CSS and JavaScript</b>. There is no server
+      and no database, so all data (users, bag and orders) is stored in the browser using
+      localStorage, and the login data can be downloaded as a CSV file that opens in MS Excel.
+    </p>
+    <p class="note-line">
+      Important : This is only a study project. It is not the real Nike website and it has no
+      connection with Nike Inc. The brand name, product names and design are used here only to
+      practise front end web development for college submission, not for any business purpose.
+      No real order or payment takes place on this site.
+    </p>
+  </div>
+
+  <h2 class="page-title">Features</h2>
+  <ul class="feature-list">
+    <li>Home page with hero banner, trending products and categories</li>
+    <li>Product listing with search, category filter and price sorting</li>
+    <li>Product detail page with size selection and quantity</li>
+    <li>Add to Bag with quantity increase / decrease and remove option</li>
+    <li>Automatic calculation of subtotal, delivery charge and total</li>
+    <li>Checkout page with full form validation</li>
+    <li>Order confirmation page with order number and print bill option</li>
+    <li>Sign In and Join Us, data saved into data.csv (email + password)</li>
+  </ul>
+
+  <h2 class="page-title">Technology Used</h2>
+  <table class="tech-table">
+    <tr><th>Part</th><th>Technology</th></tr>
+    <tr><td>Structure of pages</td><td>HTML5</td></tr>
+    <tr><td>Design and layout</td><td>CSS3 (Flexbox and Grid)</td></tr>
+    <tr><td>Working / logic</td><td>JavaScript</td></tr>
+    <tr><td>Data storage</td><td>Browser localStorage + CSV export</td></tr>
+  </table>
+
+  <h2 class="page-title">Project Details</h2>
+  <table class="tech-table">
+    <tr><th>Project name</th><td>Nike Store Clone - Online Shopping Website</td></tr>
+    <tr><th>Submitted by</th><td>[Write your name here]</td></tr>
+    <tr><th>Roll number</th><td>[Write your roll number]</td></tr>
+    <tr><th>Class</th><td>BSc IT</td></tr>
+    <tr><th>Guide</th><td>[Write your teacher name]</td></tr>
+    <tr><th>College</th><td>[Write your college name]</td></tr>
+  </table>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<div class="footer">
+  <div class="footer-top">
+    <div class="foot-col">
+      <h4>Find A Store</h4>
+      <a href="about.html">Become A Member</a>
+      <a href="about.html">Sign Up for Email</a>
+      <a href="about.html">Student Discount</a>
+      <a href="about.html">Feedback</a>
+    </div>
+    <div class="foot-col">
+      <h4>Get Help</h4>
+      <a href="about.html">Order Status</a>
+      <a href="about.html">Delivery</a>
+      <a href="about.html">Returns</a>
+      <a href="about.html">Contact Us</a>
+    </div>
+    <div class="foot-col">
+      <h4>About Nike</h4>
+      <a href="about.html">News</a>
+      <a href="about.html">Careers</a>
+      <a href="about.html">Investors</a>
+      <a href="about.html">Sustainability</a>
+    </div>
+    <div class="foot-col">
+      <h4>Shop</h4>
+      <a href="products.html?cat=Men">Men</a>
+      <a href="products.html?cat=Women">Women</a>
+      <a href="products.html?cat=Kids">Kids</a>
+      <a href="products.html">All Products</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>India</p>
+    <p class="disclaimer">
+      This is a student clone website made for a BSc IT college project only.
+      It is not the real Nike website and it is not for commercial use.
+      No real order or payment is done here.
+    </p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/about.js"></script>
+</body>
+</html>

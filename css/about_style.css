@@ -1,0 +1,35 @@
+/* about_style.css  -  only for about.html */
+
+.about-box {
+  max-width: 850px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.about-box p { margin-bottom: 14px; }
+
+.note-line {
+  background-color: #f5f5f5;
+  border-left: 3px solid #111111;
+  padding: 14px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.feature-list {
+  margin: 0 0 30px 20px;
+  line-height: 28px;
+}
+
+.tech-table {
+  max-width: 700px;
+  margin-bottom: 35px;
+}
+
+.tech-table th { width: 220px; }
+
+.date-line {
+  color: #757575;
+  font-size: 13px;
+  margin-top: 25px;
+}

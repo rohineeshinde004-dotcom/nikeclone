@@ -1,0 +1,104 @@
+/* home_style.css  -  only for index.html */
+
+.hero {
+  /* if images/banner.jpg is missing, only the grey colour is shown */
+  background-color: #e5e5e5;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 25px 35px;
+  max-width: 620px;
+}
+
+.hero-small {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.hero-text h1 {
+  font-size: 68px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #111111;
+}
+
+.hero-text .btn {
+  margin: 0 4px;
+}
+
+.hero-text .btn-white {
+  border: 1px solid #111111;
+}
+
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.cat-card {
+  background-color: #f5f5f5;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cat-card:hover {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.member-strip {
+  background-color: #111111;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 40px;
+}
+
+.strip-small {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.member-strip h2 {
+  font-size: 46px;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.member-strip p {
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .cat-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .hero { height: 400px; }
+  .hero-text h1 { font-size: 38px; }
+  .member-strip h2 { font-size: 30px; }
+}

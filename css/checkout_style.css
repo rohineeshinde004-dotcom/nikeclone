@@ -1,0 +1,85 @@
+/* checkout_style.css  -  only for checkout.html */
+
+.checkout-area {
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.form-side {
+  flex: 2;
+  min-width: 300px;
+  max-width: 560px;
+}
+
+.summary-side {
+  flex: 1;
+  min-width: 270px;
+}
+
+.sub-note {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.form-side .page-title {
+  margin-top: 30px;
+}
+
+.form-side input, .form-side textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.form-side input:focus, .form-side textarea:focus {
+  outline: none;
+  border-color: #111111;
+}
+
+.two-col {
+  display: flex;
+  gap: 12px;
+}
+
+.two-col input { flex: 1; }
+
+.radio-line {
+  display: block;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.error-msg {
+  color: #b32b2b;
+  font-size: 14px;
+  margin: 10px 0;
+  min-height: 18px;
+}
+
+.sum-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 13px;
+}
+
+.sum-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  background-color: #f5f5f5;
+}
+
+.sum-item div:nth-child(2) { flex: 1; }

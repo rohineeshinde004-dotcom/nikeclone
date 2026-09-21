@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bag. Nike IN</title>
+<link rel="stylesheet" href="css/main_style.css">
+<link rel="stylesheet" href="css/cart_style.css">
+</head>
+<body>
+
+<!-- ============ TOP BLACK BAR ============ -->
+<div class="top-bar">
+  <div class="top-links">
+    <a href="about.html">Find a Store</a><span>|</span>
+    <a href="about.html">Help</a><span>|</span>
+    <a href="login.html">Join Us</a><span>|</span>
+    <a href="login.html" id="user-link">Sign In</a>
+  </div>
+</div>
+
+<!-- ============ MAIN HEADER ============ -->
+<div class="header">
+  <a href="index.html" class="logo">NIKE</a>
+
+  <div class="nav">
+    <a href="products.html">New &amp; Featured</a>
+    <a href="products.html?cat=Men">Men</a>
+    <a href="products.html?cat=Women">Women</a>
+    <a href="products.html?cat=Kids">Kids</a>
+    <a href="products.html?cat=Accessories">Accessories</a>
+  </div>
+
+  <div class="head-right">
+    <form class="search-form" onsubmit="return doSearch(event)">
+      <input type="text" id="search-box" placeholder="Search">
+    </form>
+    <a href="cart.html" class="bag-link">Bag (<span id="cart-count">0</span>)</a>
+  </div>
+</div>
+
+<div class="container">
+  <div id="empty-msg" class="empty-msg" style="display:none;">
+    <h2>There are no items in your bag.</h2>
+    <br>
+    <a href="products.html" class="btn">Continue Shopping</a>
+  </div>
+
+  <div id="cart-area" class="cart-area">
+    <div class="cart-left">
+      <h2 class="page-title">Bag</h2>
+      <div id="cart-items"></div>
+    </div>
+
+    <div class="cart-right">
+      <h2 class="page-title">Summary</h2>
+      <table>
+        <tr><td>Subtotal</td><td id="sub-total">0</td></tr>
+        <tr><td>Estimated Delivery &amp; Handling</td><td id="ship-charge">0</td></tr>
+        <tr><th>Total</th><th id="grand-total">0</th></tr>
+      </table>
+      <p class="note" id="ship-note"></p>
+      <a href="checkout.html" class="btn full">Checkout</a>
+      <a href="products.html" class="btn btn-outline full">Continue Shopping</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<div class="footer">
+  <div class="footer-top">
+    <div class="foot-col">
+      <h4>Find A Store</h4>
+      <a href="about.html">Become A Member</a>
+      <a href="about.html">Sign Up for Email</a>
+      <a href="about.html">Student Discount</a>
+      <a href="about.html">Feedback</a>
+    </div>
+    <div class="foot-col">
+      <h4>Get Help</h4>
+      <a href="about.html">Order Status</a>
+      <a href="about.html">Delivery</a>
+      <a href="about.html">Returns</a>
+      <a href="about.html">Contact Us</a>
+    </div>
+    <div class="foot-col">
+      <h4>About Nike</h4>
+      <a href="about.html">News</a>
+      <a href="about.html">Careers</a>
+      <a href="about.html">Investors</a>
+      <a href="about.html">Sustainability</a>
+    </div>
+    <div class="foot-col">
+      <h4>Shop</h4>
+      <a href="products.html?cat=Men">Men</a>
+      <a href="products.html?cat=Women">Women</a>
+      <a href="products.html?cat=Kids">Kids</a>
+      <a href="products.html">All Products</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>India</p>
+    <p class="disclaimer">
+      This is a student clone website made for a BSc IT college project only.
+      It is not the real Nike website and it is not for commercial use.
+      No real order or payment is done here.
+    </p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

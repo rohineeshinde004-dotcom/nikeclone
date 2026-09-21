@@ -1,0 +1,67 @@
+==========================================================
+ HOW TO ADD THE PHOTOS  -  Nike Store Clone Project
+ (all photos must be kept inside this "images" folder)
+==========================================================
+
+RULE 1 : The file name must be EXACTLY as written below.
+         Small letters, .jpg at the end, no space in the name.
+RULE 2 : If a file name is wrong or the file is missing, a grey
+         box "Add photo here" is shown. Then check the spelling.
+RULE 3 : Square photos look best for products (600 x 600).
+         For banner.jpg use a wide photo (1600 x 800).
+
+----------------------------------------------------------
+ FILE NAME      PRODUCT ON THE SITE          SEARCH THIS
+----------------------------------------------------------
+banner.jpg      Big photo on home page       running track athlete
+product1.jpg    Nike Air Force 1 '07         white leather sneakers
+product2.jpg    Nike Dunk Low Retro          low top sneakers
+product3.jpg    Nike Air Max 90              sneakers side view
+product4.jpg    Nike Pegasus 41              running shoes
+product5.jpg    Nike Revolution 7            sports shoes
+product6.jpg    Nike Court Vision Low        women white sneakers
+product7.jpg    Nike V2K Run                 women running shoes
+product8.jpg    Nike Blazer Mid '77          high top sneakers
+product9.jpg    Nike Air Force 1 LE (Kids)   kids shoes
+product10.jpg   Nike Dri-FIT Tee             sports t shirt
+product11.jpg   Nike Club Fleece Hoodie      hoodie
+product12.jpg   Nike Brasilia Duffel Bag     gym duffel bag
+
+----------------------------------------------------------
+ STEPS
+----------------------------------------------------------
+STEP 1 : Open  https://www.pexels.com
+STEP 2 : Type the search word from the table, press Enter.
+STEP 3 : Click a photo you like -> click "Free Download".
+         (Pixabay button says "Download", Unsplash has a
+          down-arrow button. All three sites are free.)
+STEP 4 : The file goes to your Downloads folder with a long
+         name like  pexels-photo-2529148.jpg
+STEP 5 : Copy it into this "images" folder.
+STEP 6 : Right click -> Rename -> type  product1.jpg
+STEP 7 : Repeat for all 12 products and banner.jpg
+STEP 8 : Open index.html and press Ctrl + F5 to refresh.
+
+----------------------------------------------------------
+ IF YOUR FILE IS NOT A .jpg
+----------------------------------------------------------
+Many downloads are .webp or .png. Only renaming it will NOT
+work. Open the file in Paint, then File -> Save As -> JPEG
+picture, and save it with the correct name.
+
+----------------------------------------------------------
+ WHERE IS THIS WRITTEN IN THE CODE
+----------------------------------------------------------
+Open  js/main.js  and look at the top. Every product line has
+an "img" part, like this :
+
+  { id: 1, name: "Nike Air Force 1 '07", ... img: "images/product1.jpg", ... }
+
+If you want to use your own file name (example my_shoe.jpg),
+just change the text inside the quotes to  "images/my_shoe.jpg".
+That is the only place where photos are set.
+
+The home page banner is not set here. It is set in
+css/home_style.css inside the ".hero" part :
+
+  background-image: url("../images/banner.jpg");
